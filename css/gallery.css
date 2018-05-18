@@ -200,7 +200,7 @@ header {
   grid-row-end: 18;
   border: 2px solid black;
   margin-top: -9px;
-  background-image: url(../images/hiking-background.jpg);
+  background-image: url(../images/hiking_background.jpg);
   background-size: 100% 100%; }
 
 .img6 {
