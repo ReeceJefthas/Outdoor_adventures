@@ -1,17 +1,3 @@
-// imported vaariable page and added mixins for styling
-@mixin tilt{-webkit-transition: all 0.5s ease;
-   -moz-transition: all 0.5s ease;
-     -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-}
-@mixin tilt2{
-  -webkit-transform: rotate(-10deg);
-     -moz-transform: rotate(-10deg);
-       -o-transform: rotate(-10deg);
-      -ms-transform: rotate(-10deg);
-          transform: rotate(-10deg);
-}
 
 @import
          "partials/variables";
@@ -130,16 +116,10 @@ background-size: 100% 100%;
   border: 2px solid black;
   background-image: url(../images/fishing_img1.jpg);
   background-size: cover;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
 
-  .img1 {
-@include tilt;
-}
 
-.img1:hover {
-@include tilt2;
-}
 .img2{
   grid-column-start: 6;
   grid-column-end: 9;
@@ -150,13 +130,7 @@ background-image: url(../images/fishing_img2.jpg);
 background-size: 100% 100%;
   box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
-.img2{
-  @include tilt;
-}
-.img2:hover{
-  @include tilt2;
 
-}
 .img3{
   grid-column-start: 10;
   grid-column-end: 13;
@@ -166,12 +140,10 @@ background-size: 100% 100%;
   background-image: url(../images/fishing_img3.jpg);
   background-size: 100% 100%;
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
-transition: all .2s ease-in-out;
+
   }
 
-  .img3:hover{
-  transform: scale(1.6);
-  }
+
 .img4{
   grid-column-start: 14;
   grid-column-end: 17;
@@ -182,12 +154,7 @@ transition: all .2s ease-in-out;
   background-size: 100% 100%;
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
-  .img4{
-    @include tilt;
-  }
-  .img4:hover{
-    @include tilt2;
-  }
+
 .img5{
   grid-column-start: 17;
   grid-column-end: 20;
@@ -198,12 +165,7 @@ transition: all .2s ease-in-out;
   background-size: 100% 100%;
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
-  .img5{
-    @include tilt;
-  }
-  .img5:hover{
-    @include tilt2;
-  }
+
 
   .hiking{
     grid-column-start: 1;
@@ -226,13 +188,7 @@ transition: all .2s ease-in-out;
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
 
-  .img6 {
-  @include tilt;
-  }
 
-  .img6:hover {
-  @include tilt2;
-  }
   .img7{
   grid-column-start: 6;
   grid-column-end: 9;
@@ -243,13 +199,7 @@ transition: all .2s ease-in-out;
   background-size: 100% 100%;
   box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
-  .img7{
-  @include tilt;
-  }
-  .img7:hover{
-  @include tilt2;
 
-  }
   .img8{
   grid-column-start: 10;
   grid-column-end: 13;
@@ -260,12 +210,7 @@ transition: all .2s ease-in-out;
   background-size: 100% 100%;
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
-  .img8{
-    @include tilt;
-  }
-  .img8:hover{
-    @include tilt2;
-  }
+
   .img9{
   grid-column-start: 14;
   grid-column-end: 17;
@@ -276,12 +221,7 @@ transition: all .2s ease-in-out;
   background-size: 100% 100%;
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
-  .img9{
-    @include tilt;
-  }
-  .img9:hover{
-    @include tilt2;
-  }
+
   .img10{
   grid-column-start: 17;
   grid-column-end: 20;
@@ -291,12 +231,9 @@ transition: all .2s ease-in-out;
   background-image: url(../images/hiking_img5.jpg);
   background-size: 100% 100%;
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
-    transition: all .2s ease-in-out;
+
   }
 
-  .img10:hover{
-      transform: scale(1.6);
-  }
   .rock_climbing{
     grid-column-start: 1;
     grid-column-end: 22;
@@ -323,13 +260,7 @@ transition: all .2s ease-in-out;
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
 
-  .img11 {
-  @include tilt;
-  }
 
-  .img11:hover {
-  @include tilt2;
-  }
   .img12{
   grid-column-start: 6;
   grid-column-end: 9;
@@ -340,13 +271,7 @@ transition: all .2s ease-in-out;
   background-size: 100% 100%;
   box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
-  .img12{
-  @include tilt;
-  }
-  .img12:hover{
-  @include tilt2;
 
-  }
   .img13{
   grid-column-start: 10;
   grid-column-end: 13;
@@ -355,13 +280,11 @@ transition: all .2s ease-in-out;
   border: 2px solid black;
   background-image: url(../images/climbing_3.jpg);
   background-size: 100% 100%;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
-    transition: all .2s ease-in-out;
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
+
   }
 
-  .img13:hover{
-    transform: scale(1.6);
-  }
+
   .img14{
   grid-column-start: 14;
   grid-column-end: 17;
@@ -372,12 +295,7 @@ transition: all .2s ease-in-out;
   background-size: 100% 100%;
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
-  .img14{
-    @include tilt;
-  }
-  .img14:hover{
-    @include tilt2;
-  }
+
   .img15{
   grid-column-start: 17;
   grid-column-end: 20;
@@ -388,12 +306,7 @@ transition: all .2s ease-in-out;
   background-size: 100% 100%;
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
-  .img15{
-    @include tilt;
-  }
-  .img15:hover{
-    @include tilt2;
-  }
+
   .camp{
     grid-column-start: 1;
     grid-column-end: 22;
@@ -401,12 +314,12 @@ transition: all .2s ease-in-out;
     grid-row-end: 34;
     border:2px solid black;
     margin-top: -9px;
-      background-image: url(../images/camp_background.jpg);
-      background-size: 100% 100%;
+    background-image: url(../images/camp_background.jpg);
+    background-size: 100% 100%;
     }
-.camping{
+  .camping{
   margin-left: 67px;
-}
+  }
 
 
   .img16{
@@ -417,16 +330,10 @@ transition: all .2s ease-in-out;
   border: 2px solid black;
   background-image: url(../images/camp_1.jpg);
   background-size: cover;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
 
-  .img16 {
-  @include tilt;
-  }
 
-  .img16:hover {
-  @include tilt2;
-  }
   .img17{
   grid-column-start: 6;
   grid-column-end: 9;
@@ -437,13 +344,7 @@ transition: all .2s ease-in-out;
   background-size: 100% 100%;
   box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
-  .img17{
-  @include tilt;
-  }
-  .img17:hover{
-  @include tilt2;
 
-  }
   .img18{
   grid-column-start: 10;
   grid-column-end: 13;
@@ -452,13 +353,11 @@ transition: all .2s ease-in-out;
   border: 2px solid black;
   background-image: url(../images/camp_3.jpg);
   background-size: 100% 100%;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
-    transition: all .2s ease-in-out;
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
+
   }
 
-  .img18:hover{
-      transform: scale(1.3);
-  }
+
   .img19{
   grid-column-start: 14;
   grid-column-end: 17;
@@ -469,12 +368,7 @@ transition: all .2s ease-in-out;
   background-size: 100% 100%;
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
-  .img19{
-    @include tilt;
-  }
-  .img19:hover{
-    @include tilt2;
-  }
+
   .img20{
   grid-column-start: 17;
   grid-column-end: 20;
@@ -483,17 +377,12 @@ transition: all .2s ease-in-out;
   border: 2px solid black;
   background-image: url(../images/camp_5.jpg);
   background-size: 100% 100%;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
-  .img20{
-    @include tilt;
-  }
-  .img20:hover{
-    @include tilt2;
-  }
+
 /////////// Responsive designs///////////////////////////////////////////////////////
 
-@media screen and(min-width: 360px) {
+@media screen and(max-width: 360px) {
 header {
 font-size: 43px;
 }
@@ -504,148 +393,174 @@ grid-row-start: 1;
 grid-row-end: 2;}
 
 .img1 {
-grid-column-start: 1;
-grid-column-end: 11;
-grid-row-start: 3;
-grid-row-end: 5;
+  grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 3;
+      grid-row-end: 7;
 }
 .img2 {
-grid-column-start: 1;
-grid-column-end: 11;
-grid-row-start: 5;
-grid-row-end: 7;
+  grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 7;
+      grid-row-end: 11;
 }
 
 .img3 {
-grid-column-start: 6;
-grid-column-end: 17;
-grid-row-start: 7;
-grid-row-end: 9;
+  grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 11;
+      grid-row-end: 15;
 }
 
 .img4 {
-grid-column-start: 12;
-grid-column-end: 22;
-grid-row-start: 3;
-grid-row-end: 5;
+  grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 15;
+      grid-row-end: 19;
 }
 
   .img5 {
-  grid-column-start: 12;
-  grid-column-end: 22;
-  grid-row-start: 5;
-  grid-row-end: 7;
-}
+    grid-column-start: 1;
+     grid-column-end: 22;
+     grid-row-start: 19;
+     grid-row-end: 23;
+   }
   .fishing {
-      grid-column-start: 1;
-      grid-column-end: 22;
-      grid-row-start: 2;
-      grid-row-end: 10;}
+    grid-column-start: 1;
+  grid-column-end: 22;
+  grid-row-start: 2;
+  grid-row-end: 23;
+}
       h1 {
-        font-size: 31px;}
+      font-size: 31px;
+      }
 
   .hiking {
-  grid-column-start: 1;
-  grid-column-end: 22;
-  grid-row-start: 10;
-  grid-row-end: 18;}
+    grid-column-start: 1;
+    grid-column-end: 22;
+    grid-row-start: 23;
+    grid-row-end: 44;
+  }
 
   .img6 {
-  grid-column-start: 1;
-  grid-column-end: 11;
-  grid-row-start: 11;
-  grid-row-end: 13;}
-  .img7 {
-  grid-column-start: 1;
-  grid-column-end: 11;
-  grid-row-start: 13;
-    grid-row-end: 15;}
-
-      .img8 {
-    grid-column-start: 12;
-    grid-column-end: 22;
-  grid-row-start: 11;
-    grid-row-end: 13;}
-    .img9 {
-      grid-column-start: 12;
+    grid-column-start: 1;
         grid-column-end: 22;
-        grid-row-start: 13;
-    grid-row-end: 15;}
+        grid-row-start: 24;
+        grid-row-end: 28;
+        }
+  .img7 {
+    grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 28;
+      grid-row-end: 32;
+  }
+
+      .img8{
+        grid-column-start: 1;
+        grid-column-end: 22;
+        grid-row-start: 32;
+        grid-row-end: 36;
+    }
+    .img9{
+      grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 36;
+      grid-row-end: 40;
+      }
 
           .img10 {
-  grid-column-start: 6;
-    grid-column-end: 17;
-  grid-row-start: 15;
-  grid-row-end: 17;}
+            grid-column-start: 1;
+            grid-column-end: 22;
+            grid-row-start: 40;
+            grid-row-end: 44;
+    }
+    .rock_climbing {
+    grid-column-start: 1;
+    grid-column-end: 22;
+    grid-row-start: 44;
+    grid-row-end: 65;
+  }
 
     .rock {
-  margin-left: 0px;
+    margin-left: 0px;
     }
     .img11 {
+      grid-column-start: 1;
+    grid-column-end: 22;
+    grid-row-start: 45;
+    grid-row-end: 49;
+      }
+
+    .img12 {
+      grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 49;
+      grid-row-end: 53;
+    }
+
+    .img13 {
+      grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 53;
+      grid-row-end: 57;
+    }
+
+    .img14 {
+      grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 57;
+      grid-row-end: 61;
+    }
+
+    .img15{
+      grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 61;
+      grid-row-end: 65;
+    }
+    .camp {
         grid-column-start: 1;
-        grid-column-end: 8;
-        grid-row-start: 19;
-        grid-row-end: 22;}
+        grid-column-end: 22;
+        grid-row-start: 65;
+        grid-row-end: 86;
+      }
+    .camping {
+    margin-left: 0;
+    }
 
-        .img12 {
-            grid-column-start: 1;
-            grid-column-end: 8;
-            grid-row-start: 22;
-            grid-row-end: 25;}
+    .img16 {
+      grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 66;
+      grid-row-end: 70;
+    }
 
-            .img13 {
-          grid-column-start: 8;
-          grid-column-end: 15;
-          grid-row-start: 19;
-          grid-row-end: 22;}
+    .img17 {
+      grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 70;
+      grid-row-end: 74;
+    }
 
-          .img14 {
-              grid-column-start: 15;
-              grid-column-end: 22;
-              grid-row-start: 19;
-              grid-row-end: 22;}
-
-              .img15 {
-                  grid-column-start: 15;
-                  grid-column-end: 22;
-                  grid-row-start: 22;
-                  grid-row-end: 25}
-
-                  .camping {
-                      margin-left: 0;
-                  }
-
-                  .img16 {
-                      grid-column-start: 1;
-                      grid-column-end: 8;
-                      grid-row-start: 27;
-                      grid-row-end: 30;}
-
-                      .img17 {
-                          grid-column-start: 15;
-                          grid-column-end: 22;
-                          grid-row-start: 27;
-                          grid-row-end: 30;}
-
-                          .img18 {
-                              grid-column-start: 8;
-                              grid-column-end: 15;
-                              grid-row-start: 27;
-                              grid-row-end: 30;
-}
+   .img18 {
+     grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 74;
+      grid-row-end: 78;
+    }
 
 .img19 {
-grid-column-start: 1;
-grid-column-end: 8;
-grid-row-start: 30;
-grid-row-end: 33;
+  grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 78;
+      grid-row-end: 82;
 }
 
 .img20 {
-grid-column-start: 15;
-grid-column-end: 22;
-grid-row-start: 30;
-grid-row-end: 33;
+  grid-column-start: 1;
+      grid-column-end: 22;
+      grid-row-start: 82;
+      grid-row-end: 86;
 }
 
 }
@@ -654,76 +569,163 @@ grid-row-end: 33;
   header {
       font-size: 57px;
   }
+  .fishing {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 2;
+    grid-row-end: 28;
+  }
   h1 {
       font-size: 33px;
   }
   .img1 {
-      grid-column-start: 1;
-      grid-column-end: 11;
-      grid-row-start: 3;
-      grid-row-end: 6;
+    grid-column-start: 1;
+  grid-column-end: 21;
+  grid-row-start: 3;
+  grid-row-end: 8;
   }
 
   .img2 {
-      grid-column-start: 1;
-      grid-column-end: 11;
-      grid-row-start: 6;
-      grid-row-end: 9;
+    grid-column-start: 1;
+  grid-column-end: 21;
+  grid-row-start: 8;
+  grid-row-end: 13;
   }
   .img3 {
-      grid-column-start: 12;
-      grid-column-end: 22;
-      grid-row-start: 7;
-      grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 13;
+    grid-row-end: 18;
   }
 
   .img4 {
-      grid-column-start: 12;
-      grid-column-end: 22;
-      grid-row-start: 3;
-      grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 18;
+    grid-row-end: 23;
   }
   .img5 {
-      grid-column-start: 12;
-      grid-column-end: 22;
-      grid-row-start: 5;
-      grid-row-end: 7;
+    grid-column-start: 1;
+  grid-column-end: 21;
+  grid-row-start: 23;
+  grid-row-end: 28;
   }
-
-  .img6 {
+  .hiking {
       grid-column-start: 1;
-      grid-column-end: 11;
-      grid-row-start: 11;
-      grid-row-end: 14;
+      grid-column-end: 21;
+      grid-row-start: 28;
+      grid-row-end: 55;
+    }
+  .img6 {
+    grid-column-start: 1;
+      grid-column-end: 21;
+      grid-row-start: 29;
+      grid-row-end: 34;
   }
 
   .img7 {
-      grid-column-start: 1;
-      grid-column-end: 11;
-      grid-row-start: 14;
-      grid-row-end: 17;
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 34;
+    grid-row-end: 39;
   }
 
   .img8 {
-      grid-column-start: 12;
-      grid-column-end: 22;
-      grid-row-start: 11;
-      grid-row-end: 13;
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 39;
+    grid-row-end: 44;
   }
 
   .img9 {
-      grid-column-start: 12;
-      grid-column-end: 22;
-      grid-row-start: 13;
-      grid-row-end: 15;
+    grid-column-start: 1;
+      grid-column-end: 21;
+      grid-row-start: 44;
+      grid-row-end: 50;
   }
 
   .img10 {
-      grid-column-start: 12;
-      grid-column-end: 22;
-      grid-row-start: 15;
-      grid-row-end: 17;
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 50;
+    grid-row-end: 55;
   }
+  .rock_climbing {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 55;
+    grid-row-end: 82;
+  }
+  .img11 {
+      grid-column-start: 1;
+      grid-column-end: 21;
+      grid-row-start: 56;
+      grid-row-end: 61;
+    }
+    .img12 {
+        grid-column-start: 1;
+        grid-column-end: 21;
+        grid-row-start: 61;
+        grid-row-end: 66;
+      }
+      .img13 {
+          grid-column-start: 1;
+          grid-column-end: 21;
+          grid-row-start: 66;
+          grid-row-end: 72;
+        }
+    .img14 {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 72;
+    grid-row-end: 77;
+    }
+    .img15 {
+        grid-column-start: 1;
+        grid-column-end: 21;
+        grid-row-start: 77;
+        grid-row-end: 82;
+      }
+      .camp {
+          grid-column-start: 1;
+          grid-column-end: 21;
+          grid-row-start: 82;
+          grid-row-end: 108;
+}
+.img16 {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 83;
+    grid-row-end: 88;
+    background-size: 100% 100%;
+  }
+  .img17 {
+      grid-column-start: 1;
+      grid-column-end: 21;
+      grid-row-start: 88;
+      grid-row-end: 93;
+    }
+    .img18 {
+        grid-column-start: 1;
+        grid-column-end: 21;
+        grid-row-start: 93;
+        grid-row-end: 98;
+      }
+      .img19 {
+          grid-column-start: 1;
+          grid-column-end: 21;
+          grid-row-start: 98;
+          grid-row-end: 103;
+}
+.img20 {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 103;
+    grid-row-end: 108;
+  }
+
+
+
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -731,70 +733,153 @@ grid-row-end: 33;
   header {
       font-size: 69px;
   }
-
-  .img1 {
+  .fishing {
       grid-column-start: 1;
-      grid-column-end: 7;
-      grid-row-start: 3;
-      grid-row-end: 6;}
+      grid-column-end: 21;
+      grid-row-start: 2;
+      grid-row-end: 15;
+  }
+  .img1 {
+    grid-column-start: 1;
+  grid-column-end: 10;
+  grid-row-start: 3;
+  grid-row-end: 7;}
 
-      .img2 {
-          grid-column-start: 1;
-          grid-column-end: 7;
-          grid-row-start: 6;
-          grid-row-end: 9;
+  .img2 {
+  grid-column-start: 1;
+  grid-column-end: 10;
+  grid-row-start: 7;
+  grid-row-end: 11;
       }
       .img3 {
-          grid-column-start: 7;
-          grid-column-end: 15;
-          grid-row-start: 3;
-          grid-row-end: 9;
+        grid-column-start: 12;
+    grid-column-end: 21;
+    grid-row-start: 7;
+    grid-row-end: 11;
       }
       .img4 {
-          grid-column-start: 15;
-          grid-column-end: 22;
-          grid-row-start: 3;
-          grid-row-end: 6;
+        grid-column-start: 12;
+    grid-column-end: 21;
+    grid-row-start: 3;
+    grid-row-end: 7;
       }
       .img5 {
-          grid-column-start: 15;
-          grid-column-end: 22;
-          grid-row-start: 6;
-          grid-row-end: 9;
+        grid-column-start: 6;
+  grid-column-end: 16;
+  grid-row-start: 11;
+  grid-row-end: 15;
       }
-
-      .img6 {
+      .hiking {
           grid-column-start: 1;
-          grid-column-end: 7;
-          grid-row-start: 11;
-          grid-row-end: 14;
+          grid-column-end: 21;
+          grid-row-start: 15;
+          grid-row-end: 29;
+      }
+      .img6 {
+        grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 16;
+    grid-row-end: 20;
       }
       .img7 {
-          grid-column-start: 1;
-          grid-column-end: 7;
-          grid-row-start: 14;
-          grid-row-end: 17;
+        grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 20;
+    grid-row-end: 24;
       }
       .img8 {
-          grid-column-start: 15;
-          grid-column-end: 22;
-          grid-row-start: 11;
-          grid-row-end: 14;
+        grid-column-start: 12;
+    grid-column-end: 21;
+    grid-row-start: 20;
+    grid-row-end: 24;
       }
 
       .img9 {
-          grid-column-start: 15;
-          grid-column-end: 22;
-          grid-row-start: 14;
-          grid-row-end: 17;
+        grid-column-start: 12;
+  grid-column-end: 21;
+  grid-row-start: 16;
+  grid-row-end: 20;
       }
 
       .img10 {
-          grid-column-start: 7;
-          grid-column-end: 15;
-          grid-row-start: 11;
-          grid-row-end: 17;
+        grid-column-start: 6;
+    grid-column-end: 16;
+    grid-row-start: 24;
+    grid-row-end: 29;
       }
+      .rock_climbing {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 29;
+    grid-row-end: 43;
+}
+.img11 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 30;
+    grid-row-end: 34;
+}
+.img12 {
+    grid-column-start: 12;
+    grid-column-end: 21;
+    grid-row-start: 30;
+    grid-row-end: 34;
+}
+.img13 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 34;
+    grid-row-end: 38;
+}
+.img14 {
+    grid-column-start: 12;
+    grid-column-end: 21;
+    grid-row-start: 34;
+    grid-row-end: 38;
+}
+.img15 {
+    grid-column-start: 6;
+    grid-column-end: 16;
+    grid-row-start: 38;
+    grid-row-end: 43;
+}
+.camp {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 43;
+    grid-row-end: 57;
+}
+.img16 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 44;
+    grid-row-end: 48;
+    background-size: 100% 100%;
+}
+.img17 {
+    grid-column-start: 12;
+    grid-column-end: 21;
+    grid-row-start: 44;
+    grid-row-end: 48;
+}
+.img18 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 48;
+    grid-row-end: 52;
+}
+.img19 {
+    grid-column-start: 12;
+    grid-column-end: 21;
+    grid-row-start: 48;
+    grid-row-end: 52;
+}
+.img20 {
+    grid-column-start: 6;
+    grid-column-end: 16;
+    grid-row-start: 52;
+    grid-row-end: 57;
+}
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
