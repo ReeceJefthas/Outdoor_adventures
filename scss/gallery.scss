@@ -139,7 +139,7 @@ background-size: 100% 100%;
   border: 2px solid black;
   background-image: url(../images/fishing_img3.jpg);
   background-size: 100% 100%;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
 
   }
 
@@ -152,7 +152,7 @@ background-size: 100% 100%;
   border: 2px solid black;
   background-image: url(../images/fishing_img4.jpg);
   background-size: 100% 100%;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
 
 .img5{
@@ -163,7 +163,7 @@ background-size: 100% 100%;
   border: 2px solid black;
   background-image: url(../images/fishing_img5.jpg);
   background-size: 100% 100%;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
 
 
@@ -174,8 +174,8 @@ background-size: 100% 100%;
     grid-row-end: 18;
     border:2px solid black;
     margin-top: -9px;
-      background-image: url(../images/hiking_background.jpg);
-      background-size: 100% 100%;
+    background-image: url(../images/hiking_background.jpg);
+    background-size: 100% 100%;
     }
   .img6{
   grid-column-start: 3;
@@ -185,7 +185,7 @@ background-size: 100% 100%;
   border: 2px solid black;
   background-image: url(../images/hiking_img1.jpg);
   background-size: cover;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
 
 
@@ -219,7 +219,7 @@ background-size: 100% 100%;
   border: 2px solid black;
   background-image: url(../images/hiking_img4.jpg);
   background-size: 100% 100%;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
 
   .img10{
@@ -230,7 +230,7 @@ background-size: 100% 100%;
   border: 2px solid black;
   background-image: url(../images/hiking_img5.jpg);
   background-size: 100% 100%;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
 
   }
 
@@ -241,8 +241,8 @@ background-size: 100% 100%;
     grid-row-end: 26;
     border:2px solid black;
     margin-top: -9px;
-      background-image: url(../images/rock_climbing_background.jpg);
-      background-size: 100% 100%;
+    background-image: url(../images/rock_climbing_background.jpg);
+    background-size: 100% 100%;
     }
 .rock{
   margin-left: 67px;
@@ -257,7 +257,7 @@ background-size: 100% 100%;
   border: 2px solid black;
   background-image: url(../images/climbing_1.jpg);
   background-size: 100% 100%;
-    box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,3);
   }
 
 
@@ -883,6 +883,13 @@ grid-row-end: 2;}
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+
+  .fishing {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 2;
+    grid-row-end: 10;
+}
   .img1 {
       grid-column-start: 2;
       grid-column-end: 7;
@@ -913,6 +920,12 @@ grid-row-end: 2;}
       grid-row-start: 6;
       grid-row-end: 9;
   }
+  .hiking {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 10;
+    grid-row-end: 18;
+}
   .img6 {
       grid-column-start: 2;
       grid-column-end: 7;
@@ -943,6 +956,12 @@ grid-row-end: 2;}
       grid-row-start: 11;
       grid-row-end: 17;
   }
+  .rock_climbing {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 18;
+    grid-row-end: 26;
+}
   .img11 {
       grid-column-start: 2;
       grid-column-end: 7;
@@ -975,6 +994,12 @@ grid-row-end: 2;}
       grid-row-start: 22;
       grid-row-end: 25;
   }
+  .camp {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 26;
+    grid-row-end: 33;
+}
   .img16 {
       grid-column-start: 2;
       grid-column-end: 7;

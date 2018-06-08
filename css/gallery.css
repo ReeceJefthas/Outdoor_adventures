@@ -784,6 +784,12 @@ header {
     grid-row-end: 57; } }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+  .fishing {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 2;
+    grid-row-end: 10; }
+
   .img1 {
     grid-column-start: 2;
     grid-column-end: 7;
@@ -813,6 +819,12 @@ header {
     grid-column-end: 20;
     grid-row-start: 6;
     grid-row-end: 9; }
+
+  .hiking {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 10;
+    grid-row-end: 18; }
 
   .img6 {
     grid-column-start: 2;
@@ -844,6 +856,12 @@ header {
     grid-row-start: 11;
     grid-row-end: 17; }
 
+  .rock_climbing {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 18;
+    grid-row-end: 26; }
+
   .img11 {
     grid-column-start: 2;
     grid-column-end: 7;
@@ -873,6 +891,12 @@ header {
     grid-column-end: 20;
     grid-row-start: 22;
     grid-row-end: 25; }
+
+  .camp {
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 26;
+    grid-row-end: 33; }
 
   .img16 {
     grid-column-start: 2;
