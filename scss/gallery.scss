@@ -406,14 +406,14 @@ grid-row-end: 2;}
 }
 
 .img3 {
-  grid-column-start: 1;
+      grid-column-start: 1;
       grid-column-end: 22;
       grid-row-start: 11;
       grid-row-end: 15;
 }
 
 .img4 {
-  grid-column-start: 1;
+      grid-column-start: 1;
       grid-column-end: 22;
       grid-row-start: 15;
       grid-row-end: 19;
@@ -426,7 +426,7 @@ grid-row-end: 2;}
      grid-row-end: 23;
    }
   .fishing {
-    grid-column-start: 1;
+  grid-column-start: 1;
   grid-column-end: 22;
   grid-row-start: 2;
   grid-row-end: 23;
@@ -733,6 +733,7 @@ grid-row-end: 2;}
   header {
       font-size: 69px;
   }
+
   .fishing {
       grid-column-start: 1;
       grid-column-end: 21;
@@ -883,85 +884,87 @@ grid-row-end: 2;}
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-
+  li a, .dropbtn {
+      font-size: 25px;
+  }
   .fishing {
     grid-column-start: 1;
     grid-column-end: 21;
     grid-row-start: 2;
     grid-row-end: 10;
-}
+  }
   .img1 {
       grid-column-start: 2;
       grid-column-end: 7;
       grid-row-start: 3;
       grid-row-end: 6;
-  }
+        }
   .img2 {
       grid-column-start: 2;
       grid-column-end: 7;
       grid-row-start: 6;
       grid-row-end: 9;
-  }
+        }
   .img3 {
       grid-column-start: 7;
       grid-column-end: 15;
       grid-row-start: 3;
       grid-row-end: 9;
-  }
+        }
   .img4 {
       grid-column-start: 15;
       grid-column-end: 20;
       grid-row-start: 3;
       grid-row-end: 6;
-  }
+        }
   .img5 {
       grid-column-start: 15;
       grid-column-end: 20;
       grid-row-start: 6;
       grid-row-end: 9;
-  }
+        }
   .hiking {
     grid-column-start: 1;
     grid-column-end: 21;
     grid-row-start: 10;
     grid-row-end: 18;
-}
+          }
   .img6 {
       grid-column-start: 2;
       grid-column-end: 7;
       grid-row-start: 11;
       grid-row-end: 14;
-  }
+        }
   .img7 {
       grid-column-start: 2;
       grid-column-end: 7;
       grid-row-start: 14;
       grid-row-end: 17;
-  }
+        }
   .img8 {
       grid-column-start: 15;
       grid-column-end: 20;
       grid-row-start: 11;
       grid-row-end: 14;
-  }
+       }
   .img9 {
       grid-column-start: 15;
       grid-column-end: 20;
       grid-row-start: 14;
       grid-row-end: 17;
-  }
+         }
   .img10 {
       grid-column-start: 7;
       grid-column-end: 15;
       grid-row-start: 11;
       grid-row-end: 17;
-  }
+         }
   .rock_climbing {
     grid-column-start: 1;
     grid-column-end: 21;
     grid-row-start: 18;
     grid-row-end: 26;
-}
+     }
   .img11 {
       grid-column-start: 2;
       grid-column-end: 7;

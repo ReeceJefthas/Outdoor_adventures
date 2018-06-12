@@ -784,6 +784,9 @@ header {
     grid-row-end: 57; } }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+  li a, .dropbtn {
+    font-size: 25px; }
+
   .fishing {
     grid-column-start: 1;
     grid-column-end: 21;
